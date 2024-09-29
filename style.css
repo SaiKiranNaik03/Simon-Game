@@ -1,0 +1,100 @@
+body{
+    text-align: center;
+    background-color: #efeaea;
+}
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 50px;
+}
+h3{
+    margin: 20px 0;
+    font-size: 25px;
+}
+
+.main-div{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.btn{
+    cursor: pointer;
+    width: 14rem;
+    height: 14rem;
+    border: solid 8px black;
+    border-radius: 15%;
+    margin: 1.5rem;
+}
+
+.rules{
+    padding:0 2rem;
+    width: 40%;
+    text-align: left;
+    font-size:21px;
+}
+
+.btn-container{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.red{
+    background-color:#dd4b3e ;
+    margin-bottom: 2.5rem;
+}
+.yellow{
+    background-color: #ffea37;
+}
+.green{
+    background-color:#3edd4b ;
+    margin-bottom: 2.5rem;
+}
+.blue{
+    background-color: #4b3edd;
+}
+
+.flash{
+    background-color: #fff;
+}
+
+.userPress{
+    background-color: rgb(191, 182, 182);
+}
+
+.gameOver{
+    background-color: rgb(230, 23, 23);
+}
+
+@media(max-width:1050px){
+    .main-div{
+        flex-direction: column;
+    }
+    .btn-container{
+        width: 80%;
+    }
+    .rules{
+        width: 80%;
+    }
+}
+@media(max-width:500px){
+    .btn-container{
+        width: 95%;
+    }
+    .rules{
+        width:95%
+    }
+    .btn{
+        width: 7rem;
+        height: 7rem;
+        margin: 0.5rem;
+        border: solid 4px black;
+    }
+    h1{
+        font-size: 30px;
+    }
+    h3{
+        font-size: 20px;
+    }
+}

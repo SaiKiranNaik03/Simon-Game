@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Game</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="logo.png">
+</head>
+<body>
+    <h1>Simon Game</h1>
+    <h3>Press any key to start!</h3>
+
+    <div class="main-div">
+        <div class="btn-container">
+            <div class="line-one">
+                <div id="red" class="btn red" type="button"></div>
+                <div id="yellow" class="btn yellow" type="button"></div>
+            </div>
+            <div class="line-twwo">
+                <div id="green" class="btn green" type="button"></div>
+                <div id="blue" class="btn blue" type="button"></div>
+            </div>
+        </div>
+        <div class="rules">
+            <h2>Rules:</h2>
+            <p>The Simon game is a classic memory game that challenges players to repeat a sequence of colors and sounds. <b>Here are the rules:</b></p>
+            <p><b>Start of the Game:</b>The game begins by lighting up one of the four colors (red, blue, green, yellow) along with a sound.</p> 
+            <p><b>Player's Turn:</b>The player must repeat the pattern by clicking the colors in the exact same order.</p>
+            <p><b>Progression:</b>After each successful attempt, the game adds one more color to the sequence, making it progressively harder.</p>
+            <p><b>Mistakes:</b>If the player clicks the wrong color or sequence, the game ends, and the player has to start over (depending on how you implement this).</p>
+            <p><b>Difficulty:</b>The sequence continues to get longer as long as the player correctly follows the pattern.</p>
+            <p><b>Goal:</b>The aim is to memorize and correctly repeat as long a sequence as possible without making a mistake.</p>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
